@@ -1,0 +1,2 @@
+# kids
+Scratch、JavaScript、NOIP
