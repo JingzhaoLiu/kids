@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
+<script type="text/javascript">
 
+    if (/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))) {
+        if (window.location.href.indexOf("?mobile") < 0) {
+            try {
+                if (/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) || /iPad/i.test(navigator.userAgent)) {
+                    window.location.href = "./app/index.html";
+                }
+            } catch (e) { }
+        }
+    }
+
+</script>
 <head>
     <meta charset="utf-8">
     <title>青岛漫思教育</title>
@@ -139,19 +151,6 @@
                 <p></p>
             </li>
 
-
-            <!-- <li class="work-content-li">
-                <div class="work">
-                    <video controls="controls">
-                        <source src="video/2.mp4" type="video/mp4" />
-                        <object data="video/2.mp4">
-                            <embed src="video/2.mp4" />
-                        </object>
-                    </video>
-                </div>
-                <h3>小宝，男，7岁</h3>
-                <p></p>
-            </li> -->
             <li class="work-content-li">
                 <div class="work">
                     <video controls="controls">
@@ -177,30 +176,8 @@
                 </div>
                 <h3>羽羽，男，10岁</h3>
             </li>
-            <!-- <li class="work-content-li">
-                <div class="work">
-                    <video controls="controls">
-                        <source src="video/5.mp4" type="video/mp4" />
-                        <object data="video/5.mp4">
-                            <embed src="video/5.mp4" />
-                        </object>
-                    </video>
-                </div>
-                <h3>小浩，男，7岁</h3>
-                <p></p>
-            </li> -->
-            <!-- <li class="work-content-li">
-                <div class="work">
-                    <video controls="controls">
-                        <source src="video/6.mp4" type="video/mp4" />
-                        <object data="video/6.mp4">
-                            <embed src="video/6.mp4" />
-                        </object>
-                    </video>
-                </div>
-                <h3>小雨 ，女，7岁</h3>
-                <p></p>
-            </li> -->
+            
+            
             <li class="work-content-li">
                 <div class="work">
                     <video controls="controls">

@@ -1,0 +1,34 @@
+
+
+.color-yellow{
+    color: #ffc501;
+}
+.pct100{
+    width: 100%;
+}
+
+.color-title{
+    color:#fff;
+        background: #9CD32A;
+}
+
+.f20{
+    font-size:.8rem;
+}
+
+.map{
+    
+    height: 200px;
+}
+
+.map .BMap_Marker {
+    background: #00d6f0 !important;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+video{
+    width:100%;
+}
